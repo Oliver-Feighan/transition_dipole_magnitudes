@@ -1,0 +1,4 @@
+excited_scf(
+	structure(file = '../origin.xyz')
+	hf(ao='sto-3g' ansatz=u)
+)

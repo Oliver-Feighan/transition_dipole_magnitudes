@@ -1,0 +1,104 @@
+
+================================================================================
+          _____________ ________ _______________ ________     _________         
+         / ___________// ______ \\_____   _____// ______ \   / ________)        
+        / /_________  / /      \ \     | |     / /      \ \ | (_______          
+       |  __________|| |        | |    | |    | |        | | \________ \        
+        \ \_________ | |        | |    | |     \ \______/ /___________) |       
+         \__________||_|        |_|    |_|      \________//____________/        
+                                                                                
+====================================[ Qcore ]===================================
+
+ Git hash:   17d9a2806afc367cc8bb735c29a464075de4c2a2
+ Git date:   Tue, 27 Jul 2021 10:31:25 +0100
+ Compiler:   AppleClang 10.0.1.10010046
+ Build type: Release
+ Version:    2.0.0
+
+ Start time: Mon Aug  9 14:06:20 2021
+
+ Data directory: /Users/of15641/qcore/cmake-build-release/share/entos/2.0.0/data
+ Number of threads: 2
+ Number of threads was determined by: number of physical cores
+
+ --------------------------------------------------------------------------------
+                                   command: td                                   
+ --------------------------------------------------------------------------------
+ XTB basis setup:                        reference basis
+ Implicit solvation model:               none
+ Number of basis functions:            249
+ GFN version:                            gfn0
+ Integral screening threshold:           1.00e-10
+ Total charge:                           0.000000000
+ Number of electrons:                  218.000000000
+ Electronic temperature (Kelvin):      300.000000000
+
+ Short-range bonding energy:            -0.157950745
+ EEQ/IES energy:                        -0.330287839
+ Repulsive energy:                       1.589201557
+ D3BJ energy:                           -0.062532568
+
+ ------------------------------
+  Running non-iterative solver 
+ ------------------------------
+
+ SCF converged in 1 iterations.
+
+ Entropy contribution (-ST):            -0.000000013
+ Dipole moment (in Debye):              -4.120144       2.615649       3.082023
+
+ --------------------------------------------------
+ iter  root      eigenvalue    residual        time
+ --------------------------------------------------
+    1    1        0.042501    2.45e-18
+         2        0.047757    4.91e-18
+         3        0.062613    2.45e-18
+         4        0.071805    7.36e-18
+         5        0.077061    7.36e-18        0.12
+
+ Convergence achieved
+
+ -----------------------------
+  Summary of response results 
+ -----------------------------
+
+ Excited State   1:  0.042501 hartree (    1.1565 eV)   <S^2> =  0.000  Multiplicity =  1.000
+                     MO transition   Coefficient
+                      110 -> 111         0.7071
+
+ Excited State   2:  0.047757 hartree (    1.2995 eV)   <S^2> =  0.000  Multiplicity =  1.000
+                     MO transition   Coefficient
+                      110 -> 112         0.7071
+
+ Excited State   3:  0.062613 hartree (    1.7038 eV)   <S^2> =  0.000  Multiplicity =  1.000
+                     MO transition   Coefficient
+                      110 -> 113         0.7071
+
+ Excited State   4:  0.071805 hartree (    1.9539 eV)   <S^2> =  0.000  Multiplicity =  1.000
+                     MO transition   Coefficient
+                      109 -> 111         0.7071
+
+ Excited State   5:  0.077061 hartree (    2.0969 eV)   <S^2> =  0.000  Multiplicity =  1.000
+                     MO transition   Coefficient
+                      109 -> 112         0.7071
+ Transition Dipole Moments (a.u.)
+                         X                   Y                   Z
+ 1            -0.107222498        -3.808610997         0.945333377
+ 2             0.183514743        -3.719856247         1.009415462
+ 3            -0.336833314         1.246265593        -0.492463079
+ 4            -0.042297410         0.097476674        -1.646556778
+ 5            -0.479338067        -0.122993921         2.398348270
+
+ Oscillator Strengths (a.u.):
+                  1
+ 1         0.436642
+ 2         0.474065
+ 3         0.079692
+ 4         0.130322
+ 5         0.308088
+
+ --------------------------------------------------------------------------------
+
+ End time:                               Mon Aug  9 14:06:21 2021
+ Total wall-clock time:                  0.375 seconds
+==================================================================================

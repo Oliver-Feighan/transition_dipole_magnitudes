@@ -1,0 +1,5 @@
+td(
+	structure(file = '../origin.xyz')
+	xtb(model='gfn0')
+	n_states = 5
+)

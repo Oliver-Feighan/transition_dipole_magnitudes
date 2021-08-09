@@ -1,0 +1,96 @@
+
+================================================================================
+          _____________ ________ _______________ ________     _________         
+         / ___________// ______ \\_____   _____// ______ \   / ________)        
+        / /_________  / /      \ \     | |     / /      \ \ | (_______          
+       |  __________|| |        | |    | |    | |        | | \________ \        
+        \ \_________ | |        | |    | |     \ \______/ /___________) |       
+         \__________||_|        |_|    |_|      \________//____________/        
+                                                                                
+====================================[ Qcore ]===================================
+
+ Git hash:   17d9a2806afc367cc8bb735c29a464075de4c2a2
+ Git date:   Tue, 27 Jul 2021 10:31:25 +0100
+ Compiler:   AppleClang 10.0.1.10010046
+ Build type: Release
+ Version:    2.0.0
+
+ Start time: Mon Aug  9 14:06:26 2021
+
+ Data directory: /Users/of15641/qcore/cmake-build-release/share/entos/2.0.0/data
+ Number of threads: 2
+ Number of threads was determined by: number of physical cores
+
+ --------------------------------------------------------------------------------
+                               command: excited_scf                              
+ --------------------------------------------------------------------------------
+
+ **************
+  Ground state 
+ **************
+ XTB basis setup:                        reference basis
+ Implicit solvation model:               none
+ Number of basis functions:            249
+ GFN version:                            gfn0
+ Integral screening threshold:           1.00e-10
+ Total charge:                           0.000000000
+ Number of electrons:                  218.000000000
+ Electronic temperature (Kelvin):      300.000000000
+
+ Short-range bonding energy:            -0.157950745
+ EEQ/IES energy:                        -0.330287839
+ Repulsive energy:                       1.589201557
+ D3BJ energy:                           -0.062532568
+
+ ------------------------------
+  Running non-iterative solver 
+ ------------------------------
+
+ SCF converged in 1 iterations.
+
+ Entropy contribution (-ST):            -0.000000013
+ Dipole moment (in Debye):              -4.120144       2.615649       3.082023
+
+ ***************
+  Excited state 
+ ***************
+ XTB basis setup:                        reference basis
+ Implicit solvation model:               none
+ Number of basis functions:            249
+ GFN version:                            gfn0
+ Integral screening threshold:           1.00e-10
+ Total charge:                           0.000000000
+ Number of electrons:                  218.000000000
+ Electronic temperature (Kelvin):        0.000000000
+
+ Setting up Delta-SCF
+ Short-range bonding energy:            -0.157950745
+ EEQ/IES energy:                        -0.330287839
+ Repulsive energy:                       1.589201557
+ D3BJ energy:                           -0.062532568
+
+ ------------------------------
+  Running non-iterative solver 
+ ------------------------------
+ Initializing maximum overlap method (MOM)
+
+ SCF converged in 1 iterations.
+
+ Entropy contribution (-ST):             0.000000000
+ Dipole moment (in Debye):              -4.352742       1.796871       3.021717
+
+ ***********************
+  Transition properties 
+ ***********************
+ Excited state:                          singlet
+ Excitation energy:                      0.029303906 hartree
+ Excitation energy (in eV):              0.797399895 eV
+ Ground-Excited state overlap:           1.000000000
+ No correction applied to the TDM.
+ Transition dipole:                     38.32569     160.99223    -289.33364
+
+ --------------------------------------------------------------------------------
+
+ End time:                               Mon Aug  9 14:06:26 2021
+ Total wall-clock time:                  0.282 seconds
+==================================================================================

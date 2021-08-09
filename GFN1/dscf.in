@@ -1,0 +1,4 @@
+excited_scf(
+	structure(file = '../origin.xyz')
+	xtb(model = 'gfn0')
+)
